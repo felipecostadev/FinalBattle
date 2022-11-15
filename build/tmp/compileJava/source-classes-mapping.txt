@@ -1,0 +1,42 @@
+com/minecraft/frizz/arcade/manager/client/ClientManager.java
+ com.minecraft.frizz.arcade.manager.client.ClientManager
+com/minecraft/frizz/arcade/game/stage/GameStage.java
+ com.minecraft.frizz.arcade.game.stage.GameStage
+com/minecraft/frizz/arcade/listeners/player/PlayerListener.java
+ com.minecraft.frizz.arcade.listeners.player.PlayerListener
+com/minecraft/frizz/arcade/listeners/ArcadeListener.java
+ com.minecraft.frizz.arcade.listeners.ArcadeListener
+com/minecraft/frizz/arcade/listeners/connection/ConnectionListener.java
+ com.minecraft.frizz.arcade.listeners.connection.ConnectionListener
+com/minecraft/frizz/arcade/event/scheduler/ServerRunnableEvent.java
+ com.minecraft.frizz.arcade.event.scheduler.ServerRunnableEvent
+com/minecraft/frizz/arcade/game/scheduler/GameRunnable.java
+ com.minecraft.frizz.arcade.game.scheduler.GameRunnable
+com/minecraft/frizz/arcade/Arcade.java
+ com.minecraft.frizz.arcade.Arcade
+com/minecraft/frizz/arcade/client/mode/ClientMode.java
+ com.minecraft.frizz.arcade.client.mode.ClientMode
+com/minecraft/frizz/arcade/manager/Manager.java
+ com.minecraft.frizz.arcade.manager.Manager
+com/minecraft/frizz/arcade/event/CustomEvent.java
+ com.minecraft.frizz.arcade.event.CustomEvent
+com/minecraft/frizz/arcade/api/scoreboard/row/ScoreboardRow.java
+ com.minecraft.frizz.arcade.api.scoreboard.row.ScoreboardRow
+com/minecraft/frizz/arcade/client/Client.java
+ com.minecraft.frizz.arcade.client.Client
+com/minecraft/frizz/arcade/client/scoreboard/ClientScoreboard.java
+ com.minecraft.frizz.arcade.client.scoreboard.ClientScoreboard
+com/minecraft/frizz/arcade/api/item/ItemBuilder.java
+ com.minecraft.frizz.arcade.api.item.ItemBuilder
+com/minecraft/frizz/arcade/scheduler/ServerRunnable.java
+ com.minecraft.frizz.arcade.scheduler.ServerRunnable
+com/minecraft/frizz/arcade/api/scoreboard/ScoreboardBuilder.java
+ com.minecraft.frizz.arcade.api.scoreboard.ScoreboardBuilder
+com/minecraft/frizz/arcade/listeners/soup/SoupListener.java
+ com.minecraft.frizz.arcade.listeners.soup.SoupListener
+com/minecraft/frizz/arcade/listeners/death/DeathListener.java
+ com.minecraft.frizz.arcade.listeners.death.DeathListener
+com/minecraft/frizz/arcade/game/inventory/Inventory.java
+ com.minecraft.frizz.arcade.game.inventory.Inventory
+com/minecraft/frizz/arcade/utils/ClassGetter.java
+ com.minecraft.frizz.arcade.utils.ClassGetter
