@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'net.minecrell.plugin-yml.bukkit' version '0.3.0'
+}
+
+group 'com.minecraft.frizz.arcade'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-lang3:3.11'
+    compile 'commons-dbcp:commons-dbcp:1.4'
+
+    compileOnly 'com.google.guava:guava:31.1-jre'
+    compileOnly 'com.google.code.gson:gson:2.10'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+
+    compileOnly files('../../libraries/paperspigot.jar')
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+}
+
+bukkit {
+    name = 'Arcade'
+    main = 'com.minecraft.frizz.arcade.Arcade'
+    author = 'Felipaum'
+    version = '0.1-snapshot'
+    description = 'Arcade bukkit plugin'
+}
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+compileJava.options.encoding = 'UTF-8'
