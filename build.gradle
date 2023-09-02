@@ -3,7 +3,7 @@ plugins {
     id 'net.minecrell.plugin-yml.bukkit' version '0.3.0'
 }
 
-group 'com.minecraft.frizz.arcade'
+group 'br.com.felipecostadev.prototype'
 
 repositories {
     mavenCentral()
@@ -17,17 +17,17 @@ dependencies {
     compileOnly 'com.google.code.gson:gson:2.10'
     compileOnly 'org.projectlombok:lombok:1.18.24'
 
-    compileOnly files('../../libraries/paperspigot.jar')
+    compileOnly files('../libs/paperspigot.jar')
 
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
 
 bukkit {
-    name = 'Arcade'
-    main = 'com.minecraft.frizz.arcade.Arcade'
+    name = 'FinalBattle'
+    main = 'br.com.felipecostadev.prototype.FinalBattle'
     author = 'Felipaum'
-    version = '0.1-snapshot'
-    description = 'Arcade bukkit plugin'
+    version = '0.1'
+    description = 'Tournament Bukkit Plugin'
 }
 
 jar {

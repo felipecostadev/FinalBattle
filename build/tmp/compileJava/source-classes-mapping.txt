@@ -1,42 +1,47 @@
-com/minecraft/frizz/arcade/manager/client/ClientManager.java
- com.minecraft.frizz.arcade.manager.client.ClientManager
-com/minecraft/frizz/arcade/game/stage/GameStage.java
- com.minecraft.frizz.arcade.game.stage.GameStage
-com/minecraft/frizz/arcade/listeners/player/PlayerListener.java
- com.minecraft.frizz.arcade.listeners.player.PlayerListener
-com/minecraft/frizz/arcade/listeners/ArcadeListener.java
- com.minecraft.frizz.arcade.listeners.ArcadeListener
-com/minecraft/frizz/arcade/listeners/connection/ConnectionListener.java
- com.minecraft.frizz.arcade.listeners.connection.ConnectionListener
-com/minecraft/frizz/arcade/event/scheduler/ServerRunnableEvent.java
- com.minecraft.frizz.arcade.event.scheduler.ServerRunnableEvent
-com/minecraft/frizz/arcade/game/scheduler/GameRunnable.java
- com.minecraft.frizz.arcade.game.scheduler.GameRunnable
-com/minecraft/frizz/arcade/Arcade.java
- com.minecraft.frizz.arcade.Arcade
-com/minecraft/frizz/arcade/client/mode/ClientMode.java
- com.minecraft.frizz.arcade.client.mode.ClientMode
-com/minecraft/frizz/arcade/manager/Manager.java
- com.minecraft.frizz.arcade.manager.Manager
-com/minecraft/frizz/arcade/event/CustomEvent.java
- com.minecraft.frizz.arcade.event.CustomEvent
-com/minecraft/frizz/arcade/api/scoreboard/row/ScoreboardRow.java
- com.minecraft.frizz.arcade.api.scoreboard.row.ScoreboardRow
-com/minecraft/frizz/arcade/client/Client.java
- com.minecraft.frizz.arcade.client.Client
-com/minecraft/frizz/arcade/client/scoreboard/ClientScoreboard.java
- com.minecraft.frizz.arcade.client.scoreboard.ClientScoreboard
-com/minecraft/frizz/arcade/api/item/ItemBuilder.java
- com.minecraft.frizz.arcade.api.item.ItemBuilder
-com/minecraft/frizz/arcade/scheduler/ServerRunnable.java
- com.minecraft.frizz.arcade.scheduler.ServerRunnable
-com/minecraft/frizz/arcade/api/scoreboard/ScoreboardBuilder.java
- com.minecraft.frizz.arcade.api.scoreboard.ScoreboardBuilder
-com/minecraft/frizz/arcade/listeners/soup/SoupListener.java
- com.minecraft.frizz.arcade.listeners.soup.SoupListener
-com/minecraft/frizz/arcade/listeners/death/DeathListener.java
- com.minecraft.frizz.arcade.listeners.death.DeathListener
-com/minecraft/frizz/arcade/game/inventory/Inventory.java
- com.minecraft.frizz.arcade.game.inventory.Inventory
-com/minecraft/frizz/arcade/utils/ClassGetter.java
- com.minecraft.frizz.arcade.utils.ClassGetter
+br/com/felipecostadev/prototype/api/scoreboard/wrapper/ScoreboardWrapper.java
+ br.com.felipecostadev.prototype.api.scoreboard.wrapper.ScoreboardWrapper
+br/com/felipecostadev/prototype/game/inventory/Inventory.java
+ br.com.felipecostadev.prototype.game.inventory.Inventory
+br/com/felipecostadev/prototype/api/scoreboard/row/ScoreboardRow.java
+ br.com.felipecostadev.prototype.api.scoreboard.row.ScoreboardRow
+br/com/felipecostadev/prototype/scheduler/ServerRunnable.java
+ br.com.felipecostadev.prototype.scheduler.ServerRunnable
+br/com/felipecostadev/prototype/game/stage/GameStage.java
+ br.com.felipecostadev.prototype.game.stage.GameStage
+br/com/felipecostadev/prototype/listeners/player/PlayerListener.java
+ br.com.felipecostadev.prototype.listeners.player.PlayerListener
+br/com/felipecostadev/prototype/utils/ClassGetter.java
+ br.com.felipecostadev.prototype.utils.ClassGetter
+br/com/felipecostadev/prototype/FinalBattle.java
+ br.com.felipecostadev.prototype.FinalBattle
+br/com/felipecostadev/prototype/api/scoreboard/ScoreboardCustom.java
+ br.com.felipecostadev.prototype.api.scoreboard.ScoreboardCustom
+ br.com.felipecostadev.prototype.api.scoreboard.ScoreboardCustom$Row
+br/com/felipecostadev/prototype/listeners/death/DeathListener.java
+ br.com.felipecostadev.prototype.listeners.death.DeathListener
+br/com/felipecostadev/prototype/event/scheduler/ServerRunnableEvent.java
+ br.com.felipecostadev.prototype.event.scheduler.ServerRunnableEvent
+br/com/felipecostadev/prototype/game/scheduler/GameRunnable.java
+ br.com.felipecostadev.prototype.game.scheduler.GameRunnable
+br/com/felipecostadev/prototype/listeners/connection/ConnectionListener.java
+ br.com.felipecostadev.prototype.listeners.connection.ConnectionListener
+br/com/felipecostadev/prototype/manager/Manager.java
+ br.com.felipecostadev.prototype.manager.Manager
+br/com/felipecostadev/prototype/manager/client/ClientManager.java
+ br.com.felipecostadev.prototype.manager.client.ClientManager
+br/com/felipecostadev/prototype/client/Client.java
+ br.com.felipecostadev.prototype.client.Client
+br/com/felipecostadev/prototype/api/item/ItemBuilder.java
+ br.com.felipecostadev.prototype.api.item.ItemBuilder
+br/com/felipecostadev/prototype/event/CustomEvent.java
+ br.com.felipecostadev.prototype.event.CustomEvent
+br/com/felipecostadev/prototype/listeners/ArcadeListener.java
+ br.com.felipecostadev.prototype.listeners.ArcadeListener
+br/com/felipecostadev/prototype/listeners/soup/SoupListener.java
+ br.com.felipecostadev.prototype.listeners.soup.SoupListener
+br/com/felipecostadev/prototype/api/scoreboard/ScoreboardBuilder2.java
+ br.com.felipecostadev.prototype.api.scoreboard.ScoreboardBuilder2
+br/com/felipecostadev/prototype/client/scoreboard/Client2Scoreboard.java
+ br.com.felipecostadev.prototype.client.scoreboard.Client2Scoreboard
+br/com/felipecostadev/prototype/client/mode/ClientMode.java
+ br.com.felipecostadev.prototype.client.mode.ClientMode

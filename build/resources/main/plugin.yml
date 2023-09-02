@@ -1,5 +1,5 @@
-name: Arcade
-version: 0.1-snapshot
-main: com.minecraft.frizz.arcade.Arcade
-description: Arcade bukkit plugin
+name: FinalBattle
+version: 0.1
+main: br.com.felipecostadev.prototype.FinalBattle
+description: Tournament Bukkit Plugin
 author: Felipaum
